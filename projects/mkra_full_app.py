@@ -9,7 +9,7 @@ app.secret_key = "mkra_demo_secret"
 
 # Fictional user data
 users = {
-    "P123456789L": {"password": "demo123", "name": "John Mwangi"},
+    "P123456789L": {"password": "demo123", "name": "damaris amingo"},
     "P987654321L": {"password": "demo456", "name": "Jane Achieng"}
 }
 
