@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify
 import requests
 import base64
-import random
+import os
 from datetime import datetime
 
 app = Flask(__name__)
@@ -9,7 +9,7 @@ app.secret_key = "mkra_demo_secret"
 
 # Fictional user data
 users = {
-    "P123456789L": {"password": "demo123", "name": "John Mwangi"},
+    "P123456789L": {"password": "demo123", "name": "damaris amingo"},
     "P987654321L": {"password": "demo456", "name": "Jane Achieng"}
 }
 
