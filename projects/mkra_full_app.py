@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, session, j
 import requests
 import base64
 import os
-import random
 from datetime import datetime
 
 app = Flask(__name__)
